@@ -4,7 +4,7 @@ const content = document.querySelector('#content');
 function getImage()
 {
     
-    fetch(`https://api.nasa.gov/planetary/apod?api_key=${key}&count=3`)
+    fetch(`https://api.nasa.gov/planetary/apod?api_key=${key}&count=9`)
     .then(Response => Response.json())
     .then(data => {
 
